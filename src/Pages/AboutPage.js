@@ -1,8 +1,16 @@
 import React from 'react'
+import Title from '../Components/Title'
+import { MainLayout, InnerLayout } from "../styles/Layout"
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <>
+        <MainLayout>
+            <InnerLayout>
+              <Title title={'About me'} span={'Abput me'} />
+            </InnerLayout>
+        </MainLayout>
+    </>
   )
 }
 
