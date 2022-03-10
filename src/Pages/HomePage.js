@@ -13,8 +13,8 @@ const HomePage = () => {
       
       <div className="pic">
             <img src={pic} alt="profile" className="profilepic" />
-        </div>
-          <h1>Hi I'm<span> Pakawat Noosaard </span></h1>
+      </div>
+          <h1>Hi I'm <span className='reveal-text'>Pakawat Noosaard</span></h1>
           <ReactTypingEffect text={['I am a Web Developer']} speed={80} eraseDelay={200} className="typingeffect" />
           <p>Let me introduce myself. My nicknamename is Nut</p>
           <p>I’m 23 years old. My birthday is the 30th of September 1998.
@@ -22,9 +22,9 @@ const HomePage = () => {
           </p>
 
           <div className='icons'>
-          <div className='icon i-facebook'><FacebookIcon /></div>
-          <div className='icon i-github'><GitHubIcon /></div>
-          <div className='icon i-youtube'><YoutubeIcon /></div>
+          <div className='icon i-facebook' ><a  href='https://www.facebook.com/NUTTY.YOIKY/'><FacebookIcon/></a></div>
+          <div className='icon i-github'><a  href='https://github.com/PakawatNoosaard'><GitHubIcon/></a></div>
+          <div className='icon i-youtube'><a  href='https://www.youtube.com/channel/UCXFNt99zWtuaogw73K7gl5A/featured'><YoutubeIcon/></a></div>
           </div>
           </div>
           
@@ -34,6 +34,73 @@ const HomePage = () => {
 }
 
 const HomePageStyled = styled.header`
+
+.reveal-text,
+    .reveal-text::after {
+        animation-delay: var(--animation-delay, 2s);
+        animation-iteration-count: var(--iterations, 1);
+        animation-duration: var(--duration, 800ms);
+        animation-fill-mode: both;
+        animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+    }
+    
+    .reveal-text {
+        --animation-delay: var(--delay, 0);
+        --animation-duration: var(--duration, 800ms);
+        --animation-iterations: var(--iterations, 1);
+        position: relative;
+        animation-name: clip-text;
+        white-space: nowrap;
+        cursor: default;
+        
+        &::after {
+            content: "";
+            position: absolute;
+            z-index: 999;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: var(--primary-color);
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+            pointer-events: none;
+            animation-name: text-revealer;
+        }
+        
+    }
+    
+    
+    @keyframes clip-text {
+        from {
+            clip-path: inset(0 100% 0 0);
+        }
+        to {
+            clip-path: inset(0 0 0 0);
+        }
+    }
+    
+    
+    @keyframes text-revealer {
+        
+        0%, 50% {
+            transform-origin: 0 50%;
+        }
+        
+        60%, 100% {
+            transform-origin: 100% 50%;		
+        }
+    
+        
+        60% {
+            transform: scaleX(1);
+        }
+        
+        100% {
+            transform: scaleX(0);
+        }
+    }
+
   width: 100%;
   height: 100vh;
   position: relative;
@@ -97,6 +164,9 @@ const HomePageStyled = styled.header`
     text-decoration: bolder;
     font-size: 40px;
   }
+
+
+  
 `;
 
 export default HomePage

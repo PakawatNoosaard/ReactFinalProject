@@ -6,6 +6,7 @@ import SmallTitle from '../Components/SmallTitle';
 import Title from '../Components/Title';
 import {InnerLayout} from '../styles/Layout';
 import ResumeItem from '../Components/ResumeItem'
+import ReactTypingEffect from 'react-typing-effect'
 
 function Resume() {
     const briefcase = <BusinessCenterIcon />
@@ -15,6 +16,7 @@ function Resume() {
             <Title title={'Resume'} span={'Resume'} />
             <InnerLayout>
                 <div className="small-title u-small-title-margin">
+                <ReactTypingEffect text={['Educational Qualifications']} speed={80} eraseDelay={200} className="typingeffect" />
                     <SmallTitle icon={school} title={'Educational Qualifications'} />
                 </div>
                 <div className="resume-content ">
