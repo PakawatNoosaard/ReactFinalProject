@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
+import {InnerLayout, MainLayout, } from '../styles/Layout'
+import Title from '../Components/Title'
+import ProgressBar from './Progressbar'
 
 function Skills() {
     return (
@@ -10,39 +13,45 @@ function Skills() {
                     <div className="skills">
                         <ProgressBar 
                             title={'HTML5'}
-                            width={'70%'}
-                            text={'70%'}
+                            width={'50%'}
+                            text={'50%'}
                         />
                         <ProgressBar 
                             title={'CSS3'}
-                            width={'90%'}
-                            text={'90%'}
+                            width={'50%'}
+                            text={'50%'}
                         />
                         <ProgressBar 
                             title={'JAVASCRIPT'}
-                            width={'85%'}
-                            text={'85%'}
+                            width={'50%'}
+                            text={'50%'}
                         />
                         <ProgressBar 
                             title={'JAVA'}
+                            width={'50%'}
+                            text={'50%'}
+                        />
+                        <ProgressBar 
+                            title={'KALI Linux'}
+                            width={'30%'}
+                            text={'30%'}
+                        />
+                        <ProgressBar 
+                            title={'React JS'}
                             width={'60%'}
                             text={'60%'}
                         />
                         <ProgressBar 
-                            title={'PYTHON'}
-                            width={'95%'}
-                            text={'95%'}
+                            title={'Problem Solving'}
+                            width={'50%'}
+                            text={'50%'}
                         />
-                        <ProgressBar 
-                            title={'React JS'}
-                            width={'75%'}
-                            text={'75%'}
+                        <ProgressBar
+                             title={'Fast Learner'}
+                             width={'45%'}
+                             text={'45%'}
                         />
-                        <ProgressBar 
-                            title={'UNITY'}
-                            width={'75%'}
-                            text={'75%'}
-                        />
+
                     </div>
                 </InnerLayout>
         </SkillsStyled>

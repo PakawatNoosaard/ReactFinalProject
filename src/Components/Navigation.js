@@ -61,7 +61,7 @@ const NavigationStyled = styled.nav`
     align-items: center;
     height: 100%;
     width: 100%;
-    border-right: 1px solid var(--border-color);
+    border-right: 2px solid var(--border-color);
 
     .avatar{
         width: 100%; 
@@ -69,7 +69,7 @@ const NavigationStyled = styled.nav`
         text-align: center;
         padding: 2rem 0;
         img{
-            width: 80%;
+            width: 90%;
             border-radius: 50%;
             border: 8px solid var(--border-color);
         }
@@ -86,7 +86,7 @@ const NavigationStyled = styled.nav`
             display: block;
             a{
                 display: block;
-                padding: .2rem 0;
+                padding: 1.9rem 0;
                 position: relative;
                 &:hover{
                     cursor: pointer;
