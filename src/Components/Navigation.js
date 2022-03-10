@@ -32,9 +32,19 @@ const Navigation = () => {
               </li>
               <li className="nav-item">
                   <NavLink 
-                  to="/contact" activeClassName="active" exact> Contact                     
+                  to="/product" activeClassName="active" exact> Product                  
                   </NavLink>
               </li>
+              <li className="nav-item">
+                  <NavLink 
+                  to="/cart" activeClassName="active" exact> Cart                  
+                  </NavLink>
+              </li>
+              <li className="nav-item">
+                  <NavLink 
+                  to="/contact" activeClassName="active" exact> Contact                     
+                  </NavLink>
+              </li>             
               
         </ul>
         <footer className="footer">

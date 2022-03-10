@@ -10,6 +10,7 @@ const AboutPage = () => {
               <Title title={'About me'} span={'About me'} />
             </InnerLayout>
         </MainLayout>
+        
     </>
   )
 }
