@@ -10,7 +10,7 @@ const ResumePage = () => {
             <InnerLayout>
               <Title title={'Resume'} span={'Resume'} />
             </InnerLayout>
-        </MainLayout>
+    </MainLayout>
         
     </>
   )

@@ -4,11 +4,13 @@ import { BrowserRouter as Router, Switch as Switching, Route } from 'react-route
 import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import ResumePage from "./Pages/ResumePage";
+import PortfolioPage from "./Pages/PortfolioPage";
 import Switch from '@material-ui/core/Switch';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import { IconButton } from "@material-ui/core";
 import { useState } from "react";
 import { useEffect } from "react";
+
 
 function App() {
 
@@ -54,6 +56,7 @@ function App() {
         <Route path="/" exact><HomePage /></Route>
         <Route path="/about" exact><AboutPage /></Route>
         <Route path="/resume" exact><ResumePage /></Route>
+        <Route path="/portfolio" exact><PortfolioPage /></Route>
       </Switching>
 
       </MainContentStyled>

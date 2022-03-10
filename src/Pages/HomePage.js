@@ -10,7 +10,10 @@ const HomePage = () => {
   return (
     <HomePageStyled>
       <div className='typography'>
-      <img src={pic} alt="profile" className="profilepic" />
+      
+      <div className="pic">
+            <img src={pic} alt=""/>
+        </div>
           <h1>Hi I'm<span> Pakawat Noosaard </span></h1>
           <ReactTypingEffect text={['Hi I am Pakawat Noosaard', 'I am a Web Developer']} speed={80} eraseDelay={200} className="typingeffect" />
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
@@ -30,6 +33,18 @@ const HomePageStyled = styled.header`
     width: 100%;
     height: 100vh;
     position: relative;
+
+    .pic{
+        width: 40%; 
+        border-bottom: 1px solid var(--border-color);
+        text-align: center;
+        padding: 2rem 0;
+        img{
+            width: 80%;
+            border-radius: 50%;
+            border: 8px solid var(--border-color);
+        }
+    }
    
     .typography{
         position: absolute;
