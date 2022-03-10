@@ -7,7 +7,7 @@ const AboutPage = () => {
     <>
         <MainLayout>
             <InnerLayout>
-              <Title title={'About me'} span={'Abput me'} />
+              <Title title={'About me'} span={'About me'} />
             </InnerLayout>
         </MainLayout>
     </>
