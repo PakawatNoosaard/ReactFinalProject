@@ -10,7 +10,15 @@ import Brightness4Icon from '@material-ui/icons/Brightness4';
 import { IconButton } from "@material-ui/core";
 import { useState } from "react";
 import { useEffect } from "react";
+import ProductPage from "./Pages/ProductPage";
 
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
+import rootReducer from "./redux/reducers/index";
+import CartPage from "./Pages/CartPage";
+import ContactPage from "./Pages/ContactPage";
+
+const store = createStore(rootReducer)
 
 function App() {
 
@@ -33,6 +41,7 @@ function App() {
   }
 
   return (
+    <Provider store={store}>
     <div className="App">
       <Sidebar />
       <MainContentStyled>
@@ -57,10 +66,15 @@ function App() {
         <Route path="/about" exact><AboutPage /></Route>
         <Route path="/resume" exact><ResumePage /></Route>
         <Route path="/portfolio" exact><PortfolioPage /></Route>
+        
+        <Route path="/product" ><ProductPage/></Route>
+        <Route path="/cart"><CartPage/></Route>
+        <Route path="/contact" ><ContactPage/></Route>
       </Switching>
 
       </MainContentStyled>
     </div>
+    </Provider>
   );
 }
 

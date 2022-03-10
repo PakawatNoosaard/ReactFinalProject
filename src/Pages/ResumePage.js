@@ -9,12 +9,6 @@ import Skills from '../Components/Skill'
 const ResumePage = () => {
   return (
     <>
-    <MainLayout>
-            <InnerLayout>
-              <Title title={'Resume'} span={'Resume'} />
-            </InnerLayout>
-    </MainLayout>
-    
     <ResumePageStyled>
         <MainLayout>
             <InnerLayout>

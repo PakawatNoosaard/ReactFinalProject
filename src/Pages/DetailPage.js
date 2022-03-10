@@ -1,15 +1,15 @@
 import React from 'react'
 import { InnerLayout, MainLayout } from '../styles/Layout'
 import Title from '../Components/Title'
-import Product from '../Components/Product'
+import Detail from '../Components/Detail'
 
-const ProductPage = () => {
+const DetailPage = () => {
   return (
     <>
     <MainLayout>
-            <Title title={'Product'} span={'Product'}/>
+            <Title title={'Detail'} span={'Detail'}/>
               <InnerLayout>
-                  <Product/>
+                  <Detail/>
                 </InnerLayout>
              
     </MainLayout>
@@ -17,4 +17,4 @@ const ProductPage = () => {
   )
 }
 
-export default ProductPage
+export default DetailPage
