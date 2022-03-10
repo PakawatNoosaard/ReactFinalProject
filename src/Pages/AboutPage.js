@@ -3,6 +3,7 @@ import React from 'react'
 import Title from '../Components/Title'
 import { MainLayout, InnerLayout } from "../styles/Layout"
 import styled from 'styled-components'
+import Profile from '../Components/Profile'
 
 const AboutPage = () => {
   return (
@@ -12,7 +13,9 @@ const AboutPage = () => {
             <InnerLayout>
             <h1><span className='reveal-text'>About</span></h1>
             <h1><span className='reveal-text'><Title title={'About'} span={'About'}/></span></h1>
-  
+            <h1>___________________</h1>
+            <Profile/> 
+            <h1>___________________</h1>
             </InnerLayout>
         </MainLayout>
 
