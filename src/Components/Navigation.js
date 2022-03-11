@@ -90,7 +90,7 @@ const NavigationStyled = styled.nav`
             display: block;
             a{
                 display: block;
-                padding: 1.9rem 0;
+                padding: 2rem 0;
                 position: relative;
                 &:hover{
                     cursor: pointer;

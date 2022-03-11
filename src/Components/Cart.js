@@ -14,12 +14,12 @@ const Cart = () => {
             <Table striped bordered responsive="lg">
             <thead>
               <tr>
-                <th>ID </th>
-                <th>Produce ID </th>
-                <th>Produce Name </th>
-                <th>Produce Price </th>
-                <th>Qty </th>
-                <th>Total </th>
+                <th> ID </th>
+                <th> Produce ID </th>
+                <th> Produce Name </th>
+                <th> Produce Price </th>
+                <th> Qty </th>
+                <th> Total </th>
               </tr>
             </thead>
             <tbody>

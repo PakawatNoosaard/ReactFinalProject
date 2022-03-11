@@ -154,11 +154,7 @@ const HomePageStyled = styled.header`
         border-radius: 50%;
         border: 10px solid var(--border-color);
     }      
-    border-radius: 100%;
-    &:hover {
-      background: white;
-      filter: contrast(50%);
-    }
+    
   }
   .typingeffect {
     text-decoration: bolder;

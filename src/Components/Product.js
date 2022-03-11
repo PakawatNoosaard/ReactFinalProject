@@ -71,13 +71,13 @@ const Product = () => {
           <Table striped bordered responsive="lg">
             <thead>
               <tr>
-                <th>ID</th>
-                <th>Course Title</th>
-                <th>Course Detail</th>
-                <th>Created Date</th>
-                <th>View</th>
-                <th>Picture</th>
-                <th>Detail</th>
+                <th>ID </th>
+                <th>Course Title </th>
+                <th>Course Detail </th>
+                <th>Created Date </th>
+                <th>View </th>
+                <th>Picture </th>
+                <th>Detail </th>
               </tr>
             </thead>
             <tbody>

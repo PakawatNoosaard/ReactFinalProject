@@ -15,7 +15,7 @@ const AboutPage = () => {
             <h1><span className='reveal-text'><Title title={'About'} span={'About'}/></span></h1>
             <h1>___________________</h1>
             <Profile/> 
-            <h1>___________________</h1>
+            <h1></h1>
             </InnerLayout>
         </MainLayout>
 
