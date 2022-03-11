@@ -17,9 +17,9 @@ const HomePage = () => {
           <h1>Hi I'm <span className='reveal-text'>Pakawat Noosaard</span></h1>
           <ReactTypingEffect text={['I am a Web Developer']} speed={80} eraseDelay={500} className="typingeffect" />
           <p>Let me introduce myself. My nicknamename is Nut</p>
-          <p>I’m 23 years old. My birthday is the 30th of September 1998.
+          <p1>I’m 23 years old. My birthday is the 30th of September 1998.
 
-          </p>
+          </p1>
 
           <div className='icons'>
           <div className='icon i-facebook' ><a  href='https://www.facebook.com/NUTTY.YOIKY/'><FacebookIcon/></a></div>
@@ -166,9 +166,16 @@ const HomePageStyled = styled.header`
   }
 
   p{
+    padding-top: 1rem;
     font-size: 1.2rem;
     padding-bottom: 1rem;
     
+}
+   p1{
+      padding-top: 1rem;
+      font-size: 1.2rem;
+      padding-bottom: 1rem; 
+  
 }
   
 `;

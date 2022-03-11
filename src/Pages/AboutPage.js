@@ -92,6 +92,7 @@ const HomePageStyled = styled.header`
         }
     }
 
+    
 `;
 
 export default AboutPage

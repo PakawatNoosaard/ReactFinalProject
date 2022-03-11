@@ -49,7 +49,7 @@ function ContactPage() {
                 <div className="right-content">
                     <ContactItem title={'Phone'} icon={phone} cont1={'092-272-0304'} />
                     <ContactItem title={'Email'} icon={email} cont1={'no.pakawat_st@tni.ac.th'} cont2={'kurosama12@gmail.com'} />
-                    <ContactItem title={'Address'} icon={location} cont1={'22/381 Burirom ramintra-safari Bangkok'} cont2={'Thailand'} />
+                    <ContactItem title={'Address'} icon={location} cont1={'22/381 Burirom ramintra-safari Krung Thep Maha Nakhon'} cont2={'Thailand'} />
                     
                 </div>
             </InnerLayout>

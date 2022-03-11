@@ -12,14 +12,14 @@ const Profile = () => {
                 <h1>I'm <span>Pakawat Noosaard </span></h1>
                 <p>นักศึกษาสถาบันเทคโนโลยีไทย-ญี่ปุ่น สาขาวิชาเทคโนโลยีมัลติมิเดีย มีความสนใจในงาน Design ,UX & UI และการถ่ายภาพ ถ่ายวิดิโอ </p>
                 <p> Full Name &nbsp; : Pakawat Noosaard <br/>
-
+                <br/>
                     Age &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: 23 <br/>
-
+                    <br/>
                     Nationality : Thai<br/>
-
-                    Languages&nbsp;: Thai,Japanese,English<br/>
-
-                    Location &#160;&nbsp;&nbsp; : Bangkok<br/>
+                    <br/>
+                    Languages&nbsp;: Thai, Japanese, English<br/>
+                    <br/>
+                    Location &#160;&nbsp;&nbsp; : Krung Thep Maha Nakhon<br/>
                      </p>
             </div>
         </ProfileStyled>
@@ -53,6 +53,14 @@ const ProfileStyled = styled.div`
             padding-bottom: 2rem;
             
         }
+
+        p1{
+            padding-top: 1rem;
+            font-size: 1.2rem;
+            padding-bottom: 1rem;
+            
+        }
+
     }
 `;
 export default Profile;
