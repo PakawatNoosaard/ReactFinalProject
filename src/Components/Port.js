@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import VolumeOffIcon from '@material-ui/icons/VolumeOff';
 import ReactTypingEffect from 'react-typing-effect'
+import Member from './Member';
+import MemberTwo from './MemberTwo';
 
 const Port = () => {
     return (
@@ -13,9 +15,19 @@ const Port = () => {
               <div className='video'>
                   <iframe id="ytplayer" type="text/html" width="640" height="480" src="https://www.youtube.com/embed/N_AYtbqxkwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
-              <div className='image'>
-                  
+              <div className='image'>    
               </div>
+              <Member/>
+
+              <div className='other'>
+            <p><b>App แนะนำวง BTS</b></p>
+            <h2>Visual Studio</h2>
+            <ReactTypingEffect text={['Year 3 Final-Project']} speed={80} eraseDelay={200} className="typingeffect" />
+            <div className='video'>
+                <iframe width="640" height="480" src="https://www.youtube.com/embed/DBnLmuAUntA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <MemberTwo/>
               
               
           </div>

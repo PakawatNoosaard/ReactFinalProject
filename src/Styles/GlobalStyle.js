@@ -37,6 +37,7 @@ const GlobalStyled = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
+    --red-color: #DC143C;
 }
 .dark-theme{
     --primary-color: #007bff;
@@ -55,6 +56,7 @@ const GlobalStyled = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
+    --red-color: #DC143C;
 }
 
     *{
@@ -86,14 +88,15 @@ const GlobalStyled = createGlobalStyle`
      }
 
      span{
-         color: var(--primary-color);
+         /* color: var(--primary-color); */
+         color: var(--red-color);
      }
 
      .light-dark-mode{
         position: fixed;
         right: 0;
         top: 50%;
-        background-color: var(--background-light-color-2);
+        background-color: var(--red-color);
         width: 6.5rem;
         height: 2.5rem;
         z-index: 15;

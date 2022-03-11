@@ -15,7 +15,7 @@ const HomePage = () => {
             <img src={pic} alt="profile" className="profilepic" />
       </div>
           <h1>Hi I'm <span className='reveal-text'>Pakawat Noosaard</span></h1>
-          <ReactTypingEffect text={['I am a Web Developer']} speed={80} eraseDelay={200} className="typingeffect" />
+          <ReactTypingEffect text={['I am a Web Developer']} speed={80} eraseDelay={500} className="typingeffect" />
           <p>Let me introduce myself. My nicknamename is Nut</p>
           <p>I’m 23 years old. My birthday is the 30th of September 1998.
 
@@ -152,9 +152,9 @@ const HomePageStyled = styled.header`
     img{
         width: 30%;
         border-radius: 50%;
-        border: 8px solid var(--border-color);
+        border: 10px solid var(--border-color);
     }      
-    border-radius: 50%;
+    border-radius: 100%;
     &:hover {
       background: white;
       filter: contrast(50%);
@@ -165,7 +165,11 @@ const HomePageStyled = styled.header`
     font-size: 50px;
   }
 
-
+  p{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    
+}
   
 `;
 

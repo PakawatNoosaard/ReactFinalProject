@@ -49,8 +49,8 @@ const ProfileStyled = styled.div`
             }
         }
         p{
-            font-size: 1rem;
-            padding-bottom: 1rem;
+            font-size: 1.4rem;
+            padding-bottom: 2rem;
             
         }
     }

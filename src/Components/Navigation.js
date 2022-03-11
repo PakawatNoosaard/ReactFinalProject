@@ -84,7 +84,7 @@ const NavigationStyled = styled.nav`
         text-align: center;
 
         .active{
-            background-color: var(--primary-color);
+            background-color: var(--red-color);
         }
         li{
             display: block;
