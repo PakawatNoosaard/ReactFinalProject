@@ -95,7 +95,7 @@ const GlobalStyled = createGlobalStyle`
      .light-dark-mode{
         position: fixed;
         right: 0;
-        top: 50%;
+        top: 2%;
         background-color: var(--red-color);
         width: 6.5rem;
         height: 2.5rem;
