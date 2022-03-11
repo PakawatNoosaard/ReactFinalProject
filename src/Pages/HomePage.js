@@ -162,7 +162,7 @@ const HomePageStyled = styled.header`
   }
   .typingeffect {
     text-decoration: bolder;
-    font-size: 40px;
+    font-size: 50px;
   }
 
 

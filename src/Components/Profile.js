@@ -10,12 +10,16 @@ const Profile = () => {
             </div>
             <div className="right-content">
                 <h1>I'm <span>Pakawat Noosaard </span></h1>
-                <p>นักศึกษาสถาบันเทคโนโลยีไทย-ญี่ปุ่น สาขาวิชาเทคโนโลยีมัลติมิเดีย มีความสนใจใน Digital Painting ,งาน Design ,UX & UI และการทำเกม </p>
+                <p>นักศึกษาสถาบันเทคโนโลยีไทย-ญี่ปุ่น สาขาวิชาเทคโนโลยีมัลติมิเดีย มีความสนใจในงาน Design ,UX & UI และการถ่ายภาพ ถ่ายวิดิโอ </p>
                 <p> Full Name &nbsp; : Pakawat Noosaard <br/>
-                    Age &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: 23 <br/>
+
+                    Age &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: 23 <br/>
+
                     Nationality : Thai<br/>
+
                     Languages&nbsp;: Thai,Japanese,English<br/>
-                    Location &#160;&nbsp; : Bangkok<br/>
+
+                    Location &#160;&nbsp;&nbsp; : Bangkok<br/>
                      </p>
             </div>
         </ProfileStyled>

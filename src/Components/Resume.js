@@ -16,7 +16,7 @@ function Resume() {
             <Title title={'Resume'} span={'Resume'} />
             <InnerLayout>
                 <div className="small-title u-small-title-margin">
-                <ReactTypingEffect text={['Educational Qualifications']} speed={80} eraseDelay={200} className="typingeffect" />
+                <ReactTypingEffect text={['Education']} speed={80} eraseDelay={200} className="typingeffect" />
                     <SmallTitle icon={school} title={'Educational Qualifications'} />
                 </div>
                 <div className="resume-content ">
@@ -54,5 +54,11 @@ const ResumeStyled = styled.section`
     .resume-content{
         border-left: 2px solid var(--border-color);
     }
+
+    .typingeffect {
+        text-decoration: bolder;
+        font-size: 50px;
+      }
+
 `;
 export default Resume
